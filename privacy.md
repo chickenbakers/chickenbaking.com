@@ -53,6 +53,6 @@ We may update this policy from time to time. Changes will be posted on this page
 
 ### Contact
 
-If you have questions about this policy, contact us at [hello@chickenbaking.com](mailto:hello@chickenbaking.com).
+If you have questions about this policy, contact us at [privacy@chickenbaking.com](mailto:privacy@chickenbaking.com).
 
 </div>
