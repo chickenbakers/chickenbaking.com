@@ -1,0 +1,14 @@
+title: Chicken Baking
+description: We make apps.
+url: "https://chickenbaking.com"
+baseurl: ""
+
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

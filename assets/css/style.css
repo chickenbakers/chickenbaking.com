@@ -1,0 +1,139 @@
+:root {
+  --bg: #000000;
+  --fg: #d4a847;
+  --fg-dim: #8a7033;
+  --accent: #ffd700;
+  --link: #ffd700;
+  --link-hover: #ffe44d;
+  --border: #2a2210;
+  --code-bg: #0a0800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 72ch;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  flex: 1;
+}
+
+/* ASCII art */
+.ascii-art {
+  color: var(--accent);
+  font-size: 0.65rem;
+  line-height: 1.15;
+  white-space: pre;
+  overflow-x: auto;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .ascii-art {
+    font-size: 0.8rem;
+  }
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--fg);
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+}
+
+h1 { font-size: 1.4rem; }
+h2 { font-size: 1.15rem; color: var(--accent); }
+h3 { font-size: 1rem; }
+
+p {
+  margin-bottom: 1rem;
+  color: var(--fg-dim);
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  margin-right: 1.5rem;
+  font-size: 0.9rem;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--fg-dim);
+}
+
+/* Policy pages */
+.policy {
+  color: var(--fg-dim);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+.policy h1, .policy h2, .policy h3 {
+  font-family: 'SF Mono', 'Fira Code', Menlo, Consolas, monospace;
+}
+
+.policy ul {
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+
+.policy li {
+  margin-bottom: 0.4rem;
+}
+
+/* Tagline */
+.tagline {
+  color: var(--fg);
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0.5rem 0 2rem;
+}
+
+.subtitle {
+  color: var(--fg-dim);
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
