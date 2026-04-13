@@ -10,6 +10,8 @@ description: Privacy policy for apps published by Chicken Baking Ltd Liability C
 
 **Effective date:** April 4, 2026
 
+This policy applies to all iOS apps published by Chicken Baking Ltd Liability Co.
+
 Chicken Baking Ltd Liability Co. ("we," "us," or "our") builds and publishes mobile applications. This policy describes how our apps handle your information.
 
 ### What we collect
