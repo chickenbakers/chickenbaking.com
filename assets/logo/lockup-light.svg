@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="200" viewBox="0 0 760 200">
+  <defs><linearGradient id="cb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffd700"/><stop offset="1" stop-color="#c89a30"/>
+  </linearGradient></defs>
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" width="160" height="160" rx="38" fill="url(#cb)"/>
+    <path d="M48 52 L 90 80 L 48 108" fill="none" stroke="#000" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="98" y="98" width="38" height="12" rx="4" fill="#000"/>
+  </g>
+  <text x="210" y="98" font-family="DejaVu Sans Mono, Menlo, monospace" font-size="46" font-weight="bold" fill="#7a5e1e">chicken</text>
+  <text x="210" y="150" font-family="DejaVu Sans Mono, Menlo, monospace" font-size="46" font-weight="bold" fill="#9a7820">baking</text>
+</svg>
